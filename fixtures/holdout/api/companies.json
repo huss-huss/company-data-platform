@@ -1,0 +1,1991 @@
+[
+ {
+  "id": "acc_1811215",
+  "name": "Bluestone Energy B.V.",
+  "website": "HTTPS://WWW.BLUESTONEENERGY.NL",
+  "hq": {
+   "street": "195 Rue de la Paix",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 8,
+  "industry": "energy",
+  "updated_at": "2026-05-08T12:20:00Z"
+ },
+ {
+  "id": "acc_0626100",
+  "name": "Ébène Solar",
+  "website": "https://www.ebenesolar.et",
+  "hq": {
+   "street": "76 Kingsway",
+   "city": "Hawassa",
+   "country_code": "ET"
+  },
+  "employee_count": 50,
+  "industry": "energy",
+  "updated_at": "2026-07-19T10:22:00Z"
+ },
+ {
+  "id": "acc_0725238",
+  "name": "Pinecrest & Sons Health AB",
+  "website": "https://www.pinecrestsonshealth.com",
+  "hq": {
+   "street": "18 Market Street",
+   "city": "Göteborg",
+   "country_code": "SE"
+  },
+  "employee_count": 900,
+  "industry": "healthcare",
+  "updated_at": "2026-06-23T19:26:00Z"
+ },
+ {
+  "id": "acc_1267098",
+  "name": "Northwind Logistics",
+  "website": "northwindlogistics.com",
+  "hq": {
+   "street": "53 Mill Way",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 120,
+  "industry": "logistics",
+  "updated_at": "2026-08-28T02:33:00Z"
+ },
+ {
+  "id": "acc_1286343",
+  "name": "Foxglove and Co Logistics",
+  "website": "HTTPS://WWW.FOXGLOVECOLOGISTICS.NL",
+  "hq": {
+   "street": "49 Moi Avenue",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 2166,
+  "industry": "logistics",
+  "updated_at": "2026-06-01T01:58:00Z"
+ },
+ {
+  "id": "acc_1954395",
+  "name": "Silverbirch Coffee Traders gmbh",
+  "website": "https://www.silverbirchcoffeetraders.com",
+  "hq": {
+   "street": "210 Market Street",
+   "city": "Köln",
+   "country_code": "DE"
+  },
+  "employee_count": 250,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-05T04:06:00Z"
+ },
+ {
+  "id": "acc_1518340",
+  "name": "Aldermoor Pharma Limited",
+  "website": "aldermoorpharma.com",
+  "hq": {
+   "street": "187 Elm Avenue",
+   "city": "Mombasa",
+   "country_code": "KE"
+  },
+  "employee_count": 60,
+  "industry": "healthcare",
+  "updated_at": "2026-07-14T18:49:00Z"
+ },
+ {
+  "id": "acc_0772431",
+  "name": "Maplecrest Freight S.A.",
+  "website": "http://www.maplecrestfreight.com/about-us",
+  "hq": {
+   "street": "72 Market Street",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": 9,
+  "industry": "logistics",
+  "updated_at": "2026-05-04T23:49:00Z"
+ },
+ {
+  "id": "acc_0742744",
+  "name": "Pebblebrook Builders",
+  "website": "HTTPS://WWW.PEBBLEBROOKBUILDERS.COM",
+  "hq": {
+   "street": "199 Keizersgracht",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 15,
+  "industry": "construction",
+  "updated_at": "2026-06-26T18:58:00Z"
+ },
+ {
+  "id": "acc_2123978",
+  "name": "Maplecrest Freight Labs SA",
+  "website": "https://maplecrestfreightlabs.es/",
+  "hq": {
+   "street": "146 Riverside Drive",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": 15,
+  "industry": "logistics",
+  "updated_at": "2026-08-28T20:14:00Z"
+ },
+ {
+  "id": "acc_2111128",
+  "name": "SimienAnalytics Labs SA",
+  "website": "HTTPS://WWW.SIMIENANALYTICSLABS.ES",
+  "hq": {
+   "street": "40 Elm Avenue",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 60,
+  "industry": "software",
+  "updated_at": "2026-06-16T16:12:00Z"
+ },
+ {
+  "id": "acc_1327751",
+  "name": "IslayPoint Capital AB",
+  "website": "https://www.islaypointcapital.se",
+  "hq": {
+   "street": "29 Elm Avenue",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 10,
+  "industry": "financial services",
+  "updated_at": "2026-07-31T12:25:00Z"
+ },
+ {
+  "id": "acc_0599343",
+  "name": "Selam iRdge Textiles SAS",
+  "website": "https://selamridgetextiles.fr/",
+  "hq": {
+   "street": "171 Moi Avenue",
+   "city": "Toulouse",
+   "country_code": "FR"
+  },
+  "employee_count": 2400,
+  "industry": "manufacturing",
+  "updated_at": "2026-08-28T10:38:00Z"
+ },
+ {
+  "id": "acc_1408775",
+  "name": "Yarrow Robotics SAS",
+  "website": "yarrowrobotics.fr",
+  "hq": {
+   "street": "161 Bole Road",
+   "city": "Toulouse",
+   "country_code": "FR"
+  },
+  "employee_count": 80,
+  "industry": "manufacturing",
+  "updated_at": "2026-06-14T02:58:00Z"
+ },
+ {
+  "id": "acc_1747202",
+  "name": "Lumière Software",
+  "website": "lumieresoftware.fr",
+  "hq": {
+   "street": "146 Queen Street",
+   "city": "Lyon",
+   "country_code": "FR"
+  },
+  "employee_count": 32,
+  "industry": "software",
+  "updated_at": "2026-08-27T03:54:00Z"
+ },
+ {
+  "id": "acc_1194021",
+  "name": "Umberfield Builders Limited",
+  "website": "https://www.umberfieldbuilders.co.ke",
+  "hq": {
+   "street": "26 Station Road",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 900,
+  "industry": "construction",
+  "updated_at": "2026-07-11T10:40:00Z"
+ },
+ {
+  "id": "acc_1257605",
+  "name": "FJÄLLGREN SOLAR G.m.b.H.",
+  "website": "https://www.fjallgrensolar.de",
+  "hq": {
+   "street": "70 Storgatan",
+   "city": "Hamburg",
+   "country_code": "DE"
+  },
+  "employee_count": 900,
+  "industry": "energy",
+  "updated_at": "2026-06-06T06:48:00Z"
+ },
+ {
+  "id": "acc_1526292",
+  "name": "Upland Textiles Share Company",
+  "website": "https://www.uplandtextiles.com",
+  "hq": {
+   "street": "62 Bahnhofstraße",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 176,
+  "industry": "manufacturing",
+  "updated_at": "2026-06-22T18:34:00Z"
+ },
+ {
+  "id": "acc_1223825",
+  "name": "Simien Analytics SA",
+  "website": "https://www.simienanalytics.com",
+  "hq": {
+   "street": "63 Moi Avenue",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 480,
+  "industry": "software",
+  "updated_at": "2026-07-22T03:29:00Z"
+ },
+ {
+  "id": "acc_0766551",
+  "name": "Emberlnie Data",
+  "website": "https://emberlinedata.es/",
+  "hq": {
+   "street": "174 Harbour Lane",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": 250,
+  "industry": "software",
+  "updated_at": "2026-08-15T22:17:00Z"
+ },
+ {
+  "id": "acc_1467507",
+  "name": "Valewood Robotics Incorporated",
+  "website": "https://www.valewoodrobotics.com",
+  "hq": {
+   "street": "156 Moi Avenue",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": null,
+  "industry": "manufacturing",
+  "updated_at": "2026-07-13T19:26:00Z"
+ },
+ {
+  "id": "acc_2051779",
+  "name": "Emberline Data S.A.S.",
+  "website": "HTTPS://WWW.EMBERLINEDATA.FR",
+  "hq": {
+   "street": "89 Mill Way",
+   "city": "Paris",
+   "country_code": "FR"
+  },
+  "employee_count": 9,
+  "industry": "software",
+  "updated_at": "2026-08-14T12:45:00Z"
+ },
+ {
+  "id": "acc_2098694",
+  "name": "MaplecrestBuilders Labs S.A.R.L.",
+  "website": "https://maplecrestbuilderslabs.fr/",
+  "hq": {
+   "street": "94 Mill Way",
+   "city": "Toulouse",
+   "country_code": "FR"
+  },
+  "employee_count": 15,
+  "industry": "construction",
+  "updated_at": "2026-05-13T11:32:00Z"
+ },
+ {
+  "id": "acc_0614943",
+  "name": "Willowmere Data S.A.",
+  "website": "HTTPS://WWW.WILLOWMEREDATA.COM",
+  "hq": {
+   "street": "238 Kingsway",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 298,
+  "industry": "software",
+  "updated_at": "2026-06-18T12:54:00Z"
+ },
+ {
+  "id": "acc_0836848",
+  "name": "REDFERN ANALYTICS P.L.C.",
+  "website": "http://www.redfernanalytics.et/about-us",
+  "hq": {
+   "street": "9 Mill Way",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 147,
+  "industry": "software",
+  "updated_at": "2026-07-10T18:40:00Z"
+ },
+ {
+  "id": "acc_0535469",
+  "name": "Tidewater Energy B.V.",
+  "website": "http://www.tidewaterenergy.nl/about-us",
+  "hq": {
+   "street": "147 Bole Road",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 60,
+  "industry": "energy",
+  "updated_at": "2026-05-09T01:08:00Z"
+ },
+ {
+  "id": "acc_1839172",
+  "name": "OrchidBay Energy SL",
+  "website": "http://www.orchidbayenergy.es/about-us",
+  "hq": {
+   "street": "192 Moi Avenue",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": null,
+  "industry": "energy",
+  "updated_at": "2026-07-08T02:45:00Z"
+ },
+ {
+  "id": "acc_1331152",
+  "name": "Kilima Haelth P.L.C.",
+  "website": "kilimahealth.com",
+  "hq": {
+   "street": "109 Calle Mayor",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 158,
+  "industry": "healthcare",
+  "updated_at": "2026-08-23T09:34:00Z"
+ },
+ {
+  "id": "acc_0637180",
+  "name": "Tana Lake Logistics Corporation",
+  "website": "tanalakelogistics.com",
+  "hq": {
+   "street": "172 Riverside Drive",
+   "city": "Austin",
+   "country_code": "US"
+  },
+  "employee_count": 60,
+  "industry": "logistics",
+  "updated_at": "2026-05-31T07:39:00Z"
+ },
+ {
+  "id": "acc_1273529",
+  "name": "QUILLFEATHER COFFEE TRADERS P.L.C.",
+  "website": "quillfeathercoffeetraders.et",
+  "hq": {
+   "street": "174 Storgatan",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 480,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-18T01:21:00Z"
+ },
+ {
+  "id": "acc_0643870",
+  "name": "Abenet Logistics SA",
+  "website": "abenetlogistics.com",
+  "hq": {
+   "street": "212 Harbour Lane",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 900,
+  "industry": "logistics",
+  "updated_at": "2026-07-28T08:59:00Z"
+ },
+ {
+  "id": "acc_0602868",
+  "name": "Ironbark Pharma S.C.",
+  "website": "ironbarkpharma.et",
+  "hq": {
+   "street": "174 Harbour Lane",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 250,
+  "industry": "healthcare",
+  "updated_at": "2026-08-28T04:14:00Z"
+ },
+ {
+  "id": "acc_0844434",
+  "name": "Meridian Vale Coffee Traders S.A.",
+  "website": "https://meridianvalecoffeetraders.com/",
+  "hq": {
+   "street": "95 Elm Avenue",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": 11,
+  "industry": "food & beverage",
+  "updated_at": "2026-07-28T14:35:00Z"
+ },
+ {
+  "id": "acc_1025701",
+  "name": "Meridian Vale Data SARL",
+  "website": "https://meridianvaledata.com/",
+  "hq": {
+   "street": "217 Storgatan",
+   "city": "Nantes",
+   "country_code": "FR"
+  },
+  "employee_count": 37,
+  "industry": "software",
+  "updated_at": "2026-08-16T20:53:00Z"
+ },
+ {
+  "id": "acc_1652289",
+  "name": "MOSSBANK CAPITAL Ltd",
+  "website": "https://www.mossbankcapital.com",
+  "hq": {
+   "street": "19 Queen Street",
+   "city": "London",
+   "country_code": "GB"
+  },
+  "employee_count": 7,
+  "industry": "financial services",
+  "updated_at": "2026-06-23T21:23:00Z"
+ },
+ {
+  "id": "acc_1737091",
+  "name": "Silverbirch Pharma Limited",
+  "website": "silverbirchpharma.co.ke",
+  "hq": {
+   "street": "182 Rue de la Paix",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 8,
+  "industry": "healthcare",
+  "updated_at": "2026-06-10T12:04:00Z"
+ },
+ {
+  "id": "acc_2155996",
+  "name": "Thornbury Health International BV",
+  "website": "https://thornburyhealthinternational.nl/",
+  "hq": {
+   "street": "9 Station Road",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 318,
+  "industry": "healthcare",
+  "updated_at": "2026-08-24T09:29:00Z"
+ },
+ {
+  "id": "acc_1314081",
+  "name": "Larkspur Pharma Aktiengesellschaft",
+  "website": "https://larkspurpharma.com/",
+  "hq": {
+   "street": "98 Keizersgracht",
+   "city": "Hamburg",
+   "country_code": "DE"
+  },
+  "employee_count": 37,
+  "industry": "healthcare",
+  "updated_at": "2026-08-08T22:02:00Z"
+ },
+ {
+  "id": "acc_1916200",
+  "name": "Maplecrest Health Corp.",
+  "website": "https://www.maplecresthealth.com",
+  "hq": {
+   "street": "17 Moi Avenue",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": null,
+  "industry": "healthcare",
+  "updated_at": "2026-05-03T02:40:00Z"
+ },
+ {
+  "id": "acc_1125551",
+  "name": "Kingsmoor Capital Limited",
+  "website": "https://kingsmoorcapital.ca/",
+  "hq": {
+   "street": "114 Kingsway",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 32,
+  "industry": "financial services",
+  "updated_at": "2026-07-20T13:48:00Z"
+ },
+ {
+  "id": "acc_1759157",
+  "name": "Ébène Capital S.A.",
+  "website": "ebenecapital.es",
+  "hq": {
+   "street": "149 Market Street",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 8,
+  "industry": "financial services",
+  "updated_at": "2026-08-26T07:59:00Z"
+ },
+ {
+  "id": "acc_1074900",
+  "name": "Selam Ridge Capital Ltd",
+  "website": "HTTPS://WWW.SELAMRIDGECAPITAL.COM",
+  "hq": {
+   "street": "123 Calle Mayor",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 222,
+  "industry": "financial services",
+  "updated_at": "2026-05-05T13:40:00Z"
+ },
+ {
+  "id": "acc_0412039",
+  "name": "Grnaite Peak Freight",
+  "website": "granitepeakfreight.com",
+  "hq": {
+   "street": "179 Station Road",
+   "city": "Austin",
+   "country_code": "US"
+  },
+  "employee_count": 60,
+  "industry": "logistics",
+  "updated_at": "2026-06-02T17:42:00Z"
+ },
+ {
+  "id": "acc_1632881",
+  "name": "Savanna Gate Logistics P.L.C.",
+  "website": "http://www.savannagatelogistics.et/about-us",
+  "hq": {
+   "street": "149 Bahnhofstraße",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 13,
+  "industry": "logistics",
+  "updated_at": "2026-06-11T18:09:00Z"
+ },
+ {
+  "id": "acc_0573585",
+  "name": "Cobalt Ridge Software S.A.S.",
+  "website": "cobaltridgesoftware.fr",
+  "hq": {
+   "street": "108 Riverside Drive",
+   "city": "Nantes",
+   "country_code": "FR"
+  },
+  "employee_count": 551,
+  "industry": "software",
+  "updated_at": "2026-05-13T18:06:00Z"
+ },
+ {
+  "id": "acc_1646398",
+  "name": "JadecliffData BV",
+  "website": "HTTPS://WWW.JADECLIFFDATA.COM",
+  "hq": {
+   "street": "6 Mill Way",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": null,
+  "industry": "software",
+  "updated_at": "2026-06-28T04:47:00Z"
+ },
+ {
+  "id": "acc_0102967",
+  "name": "Ironbark Robotics B.V.",
+  "website": "HTTPS://WWW.IRONBARKROBOTICS.COM",
+  "hq": {
+   "street": "118 Bahnhofstraße",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 76,
+  "industry": "manufacturing",
+  "updated_at": "2026-08-02T07:50:00Z"
+ },
+ {
+  "id": "acc_0716255",
+  "name": "TanaLake Software",
+  "website": "http://www.tanalakesoftware.com/about-us",
+  "hq": {
+   "street": "6 Rue de la Paix",
+   "city": "London",
+   "country_code": "GB"
+  },
+  "employee_count": 30,
+  "industry": "software",
+  "updated_at": "2026-05-20T17:16:00Z"
+ },
+ {
+  "id": "acc_1433421",
+  "name": "Driftwood Logistics Inc",
+  "website": null,
+  "hq": {
+   "street": "42 Harbour Lane",
+   "city": "Denver",
+   "country_code": "US"
+  },
+  "employee_count": 17,
+  "industry": "logistics",
+  "updated_at": "2026-05-06T01:53:00Z"
+ },
+ {
+  "id": "acc_1058132",
+  "name": "Cedarline& Sons Robotics AB",
+  "website": "cedarlinesonsrobotics.com",
+  "hq": {
+   "street": "166 Harbour Lane",
+   "city": "Göteborg",
+   "country_code": "SE"
+  },
+  "employee_count": 120,
+  "industry": "manufacturing",
+  "updated_at": "2026-07-13T10:35:00Z"
+ },
+ {
+  "id": "acc_1495231",
+  "name": "Silverbirch Software B.V.",
+  "website": null,
+  "hq": {
+   "street": "113 Harbour Lane",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 480,
+  "industry": "software",
+  "updated_at": "2026-05-19T12:49:00Z"
+ },
+ {
+  "id": "acc_0863784",
+  "name": "Fernhollow Coffee Traders",
+  "website": "HTTPS://WWW.FERNHOLLOWCOFFEETRADERS.COM",
+  "hq": {
+   "street": "91 Market Street",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 120,
+  "industry": "food & beverage",
+  "updated_at": "2026-07-06T08:04:00Z"
+ },
+ {
+  "id": "acc_1961053",
+  "name": "PebblebrookPharma",
+  "website": "pebblebrookpharma.com",
+  "hq": {
+   "street": "138 Moi Avenue",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 60,
+  "industry": "healthcare",
+  "updated_at": "2026-08-17T07:00:00Z"
+ },
+ {
+  "id": "acc_1112598",
+  "name": "Fernhollow Energy",
+  "website": "https://fernhollowenergy.com/",
+  "hq": {
+   "street": "219 Calle Mayor",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 250,
+  "industry": "energy",
+  "updated_at": "2026-07-07T21:49:00Z"
+ },
+ {
+  "id": "acc_0186382",
+  "name": "Pinecrest Builders",
+  "website": "http://www.pinecrestbuilders.nl/about-us",
+  "hq": {
+   "street": "191 Bole Road",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 8,
+  "industry": "construction",
+  "updated_at": "2026-08-16T19:13:00Z"
+ },
+ {
+  "id": "acc_1793420",
+  "name": "Kilima Software GmbH",
+  "website": "http://www.kilimasoftware-de.com/about-us",
+  "hq": {
+   "street": "181 Harbour Lane",
+   "city": "Berlin",
+   "country_code": "DE"
+  },
+  "employee_count": 60,
+  "industry": "software",
+  "updated_at": "2026-07-03T14:20:00Z"
+ },
+ {
+  "id": "acc_1871674",
+  "name": "ALDERMOOR CAPITAL",
+  "website": "aldermoorcapital.com",
+  "hq": {
+   "street": "163 Calle Mayor",
+   "city": "Manchester",
+   "country_code": "GB"
+  },
+  "employee_count": 900,
+  "industry": "financial services",
+  "updated_at": "2026-06-24T18:03:00Z"
+ },
+ {
+  "id": "acc_0922656",
+  "name": "Brightwater Labs SAS",
+  "website": "http://www.brightwaterlabs.fr/about-us",
+  "hq": {
+   "street": "25 Rue de la Paix",
+   "city": "Lyon",
+   "country_code": "FR"
+  },
+  "employee_count": 8,
+  "industry": "biotech",
+  "updated_at": "2026-08-20T15:17:00Z"
+ },
+ {
+  "id": "acc_0035903",
+  "name": "Savanna Gaet Software, B.V.",
+  "website": "savannagatesoftware.com",
+  "hq": {
+   "street": "107 Riverside Drive",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 501,
+  "industry": "software",
+  "updated_at": "2026-06-24T09:27:00Z"
+ },
+ {
+  "id": "acc_0125946",
+  "name": "Fjällgren Labs S.L.",
+  "website": "http://www.fjallgrenlabs.es/about-us",
+  "hq": {
+   "street": "138 Elm Avenue",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": 160,
+  "industry": "biotech",
+  "updated_at": "2026-08-18T09:48:00Z"
+ },
+ {
+  "id": "acc_2131555",
+  "name": "Tana Lak Freight Labs Aktiebolag",
+  "website": "HTTPS://WWW.TANALAKEFREIGHTLABS.SE",
+  "hq": {
+   "street": "19 Bole Road",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 15,
+  "industry": "logistics",
+  "updated_at": "2026-06-26T14:53:00Z"
+ },
+ {
+  "id": "acc_1489311",
+  "name": "Kingsmoor Data AB",
+  "website": "https://www.kingsmoordata.se",
+  "hq": {
+   "street": "228 Mill Way",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 75,
+  "industry": "software",
+  "updated_at": "2026-08-11T13:31:00Z"
+ },
+ {
+  "id": "acc_1825461",
+  "name": "UPLAND ENERGY",
+  "website": "http://www.uplandenergy.com/about-us",
+  "hq": {
+   "street": "30 Station Road",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 8,
+  "industry": "energy",
+  "updated_at": "2026-08-15T06:40:00Z"
+ },
+ {
+  "id": "acc_0282573",
+  "name": "MeridianVale Freight SL",
+  "website": "https://www.meridianvalefreight.es",
+  "hq": {
+   "street": "68 Bole Road",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": null,
+  "industry": "logistics",
+  "updated_at": "2026-07-07T19:13:00Z"
+ },
+ {
+  "id": "acc_0941378",
+  "name": "VALEWOOD ENERGY",
+  "website": "https://www.valewoodenergy.com",
+  "hq": {
+   "street": "154 Station Road",
+   "city": "Denver",
+   "country_code": "US"
+  },
+  "employee_count": 120,
+  "industry": "energy",
+  "updated_at": "2026-07-09T01:46:00Z"
+ },
+ {
+  "id": "acc_2024456",
+  "name": "Stonebridge Textiles BV",
+  "website": "stonebridgetextiles.com",
+  "hq": {
+   "street": "9 Bahnhofstraße",
+   "city": "Rotterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 62,
+  "industry": "manufacturing",
+  "updated_at": "2026-06-15T08:11:00Z"
+ },
+ {
+  "id": "acc_1869096",
+  "name": "Savanna Gate Textiles Corp.",
+  "website": "HTTPS://WWW.SAVANNAGATETEXTILES.COM",
+  "hq": {
+   "street": "83 Rue de la Paix",
+   "city": "Austin",
+   "country_code": "US"
+  },
+  "employee_count": 15,
+  "industry": "manufacturing",
+  "updated_at": "2026-08-01T09:30:00Z"
+ },
+ {
+  "id": "acc_0854567",
+  "name": "Maplecrest Labs",
+  "website": "https://www.maplecrestlabs.com",
+  "hq": {
+   "street": "82 Bole Road",
+   "city": "Leeds",
+   "country_code": "GB"
+  },
+  "employee_count": 2400,
+  "industry": "biotech",
+  "updated_at": "2026-07-29T19:18:00Z"
+ },
+ {
+  "id": "acc_1588274",
+  "name": "ASHGROVE and PARTNERS FOODS",
+  "website": "https://www.ashgrovepartnersfoods.com",
+  "hq": {
+   "street": "70 Rue de la Paix",
+   "city": "Lyon",
+   "country_code": "FR"
+  },
+  "employee_count": 120,
+  "industry": "food & beverage",
+  "updated_at": "2026-05-24T02:08:00Z"
+ },
+ {
+  "id": "acc_1182302",
+  "name": "Tidewater and Partners Health Aktiebolag",
+  "website": "https://tidewaterpartnershealth.com/",
+  "hq": {
+   "street": "8 Mill Way",
+   "city": "Malmö",
+   "country_code": "SE"
+  },
+  "employee_count": 2400,
+  "industry": "healthcare",
+  "updated_at": "2026-07-02T18:04:00Z"
+ },
+ {
+  "id": "acc_2071251",
+  "name": "Solano Builders GmbH",
+  "website": "solanobuilders.de",
+  "hq": {
+   "street": "148 Elm Avenue",
+   "city": "Köln",
+   "country_code": "DE"
+  },
+  "employee_count": 23,
+  "industry": "construction",
+  "updated_at": "2026-07-20T22:01:00Z"
+ },
+ {
+  "id": "acc_0938561",
+  "name": "GoldcrestAnalytics AG",
+  "website": "https://www.goldcrestanalytics.de",
+  "hq": {
+   "street": "105 Mill Way",
+   "city": "München",
+   "country_code": "DE"
+  },
+  "employee_count": 175,
+  "industry": "software",
+  "updated_at": "2026-08-02T23:44:00Z"
+ },
+ {
+  "id": "acc_1453515",
+  "name": "Goldcrest nergy Corp.",
+  "website": "HTTPS://WWW.GOLDCRESTENERGY.COM",
+  "hq": {
+   "street": "146 Mill Way",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": 250,
+  "industry": "energy",
+  "updated_at": "2026-05-21T07:11:00Z"
+ },
+ {
+  "id": "acc_0206936",
+  "name": "Larkspur Foods Aktiebolag",
+  "website": "http://www.larkspurfoods.com/about-us",
+  "hq": {
+   "street": "130 Harbour Lane",
+   "city": "Malmö",
+   "country_code": "SE"
+  },
+  "employee_count": 32,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-06T18:02:00Z"
+ },
+ {
+  "id": "acc_1596619",
+  "name": "Thornbury Builders Inc",
+  "website": "thornburybuilders.com",
+  "hq": {
+   "street": "199 Rue de la Paix",
+   "city": "Denver",
+   "country_code": "US"
+  },
+  "employee_count": 329,
+  "industry": "construction",
+  "updated_at": "2026-07-11T01:29:00Z"
+ },
+ {
+  "id": "acc_0689864",
+  "name": "CEDARLINE DATA AG",
+  "website": "HTTPS://WWW.CEDARLINEDATA.DE",
+  "hq": {
+   "street": "50 Bahnhofstraße",
+   "city": "München",
+   "country_code": "DE"
+  },
+  "employee_count": 900,
+  "industry": "software",
+  "updated_at": "2026-06-20T04:47:00Z"
+ },
+ {
+  "id": "acc_1014351",
+  "name": "Solano Builders Corporation",
+  "website": "https://solanobuilders.com/",
+  "hq": {
+   "street": "153 Elm Avenue",
+   "city": "Seattle",
+   "country_code": "US"
+  },
+  "employee_count": null,
+  "industry": "construction",
+  "updated_at": "2026-07-05T12:55:00Z"
+ },
+ {
+  "id": "acc_1893073",
+  "name": "PINECREST LOGISTICS Aktiebolag",
+  "website": "HTTPS://WWW.PINECRESTLOGISTICS.SE",
+  "hq": {
+   "street": "135 Moi Avenue",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 60,
+  "industry": "logistics",
+  "updated_at": "2026-07-18T10:25:00Z"
+ },
+ {
+  "id": "acc_2012604",
+  "name": "Abenet Pharma AB",
+  "website": "abenetpharma.com",
+  "hq": {
+   "street": "41 Elm Avenue",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 250,
+  "industry": "healthcare",
+  "updated_at": "2026-07-21T16:13:00Z"
+ },
+ {
+  "id": "acc_1624220",
+  "name": "Brightwaetr Logistics Ltd",
+  "website": "https://www.brightwaterlogistics.co.ke",
+  "hq": {
+   "street": "17 Harbour Lane",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 120,
+  "industry": "logistics",
+  "updated_at": "2026-06-04T08:30:00Z"
+ },
+ {
+  "id": "acc_0399784",
+  "name": "Stonebridge Energy S.C.",
+  "website": "stonebridgeenergy.et",
+  "hq": {
+   "street": "236 Keizersgracht",
+   "city": "Hawassa",
+   "country_code": "ET"
+  },
+  "employee_count": 900,
+  "industry": "energy",
+  "updated_at": "2026-08-02T22:43:00Z"
+ },
+ {
+  "id": "acc_0808930",
+  "name": "AbenetPharma SAS",
+  "website": "https://www.abenetpharma.fr",
+  "hq": {
+   "street": "207 Bahnhofstraße",
+   "city": "Paris",
+   "country_code": "FR"
+  },
+  "employee_count": 900,
+  "industry": "healthcare",
+  "updated_at": "2026-05-16T17:18:00Z"
+ },
+ {
+  "id": "acc_2108524",
+  "name": "Mossbank Capital Group Ltd",
+  "website": "HTTPS://WWW.MOSSBANKCAPITALGROUP.CO.UK",
+  "hq": {
+   "street": "4 Station Road",
+   "city": "London",
+   "country_code": "GB"
+  },
+  "employee_count": 250,
+  "industry": "financial services",
+  "updated_at": "2026-07-05T01:17:00Z"
+ },
+ {
+  "id": "acc_0002359",
+  "name": "Brisa Software SL",
+  "website": "HTTPS://WWW.BRISASOFTWARE.ES",
+  "hq": {
+   "street": "135 Mill Way",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": 646,
+  "industry": "software",
+  "updated_at": "2026-06-18T09:52:00Z"
+ },
+ {
+  "id": "acc_1608669",
+  "name": "Selam Ridge Health, Corp.",
+  "website": "selamridgehealth.com",
+  "hq": {
+   "street": "131 Elm Avenue",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": 2429,
+  "industry": "healthcare",
+  "updated_at": "2026-06-12T19:16:00Z"
+ },
+ {
+  "id": "acc_2042938",
+  "name": "Ashgrove Solar",
+  "website": "http://www.ashgrovesolar.com/about-us",
+  "hq": {
+   "street": "154 Bole Road",
+   "city": "Göteborg",
+   "country_code": "SE"
+  },
+  "employee_count": 56,
+  "industry": "energy",
+  "updated_at": "2026-07-19T01:53:00Z"
+ },
+ {
+  "id": "acc_0739948",
+  "name": "Ironbark Builders S.L.",
+  "website": "https://www.ironbarkbuilders.es",
+  "hq": {
+   "street": "176 Moi Avenue",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 70,
+  "industry": "construction",
+  "updated_at": "2026-05-13T11:35:00Z"
+ },
+ {
+  "id": "acc_0554047",
+  "name": "Pinercest Freight Limited",
+  "website": "https://pinecrestfreight.com/",
+  "hq": {
+   "street": "100 Elm Avenue",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 120,
+  "industry": "logistics",
+  "updated_at": "2026-05-14T09:40:00Z"
+ },
+ {
+  "id": "acc_2196674",
+  "name": "Stonebridge Energy Labs Share Company",
+  "website": "HTTPS://WWW.STONEBRIDGEENERGYLABS.ET",
+  "hq": {
+   "street": "184 Bahnhofstraße",
+   "city": "Hawassa",
+   "country_code": "ET"
+  },
+  "employee_count": 224,
+  "industry": "energy",
+  "updated_at": "2026-08-25T23:14:00Z"
+ },
+ {
+  "id": "acc_0023188",
+  "name": "BluestoneFreight Ltd",
+  "website": "bluestonefreight.com",
+  "hq": {
+   "street": "127 Mill Way",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 66,
+  "industry": "logistics",
+  "updated_at": "2026-05-10T15:15:00Z"
+ },
+ {
+  "id": "acc_1909000",
+  "name": "UMBERFIELD LABS, Ltd.",
+  "website": null,
+  "hq": {
+   "street": "11 Keizersgracht",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 120,
+  "industry": "biotech",
+  "updated_at": "2026-07-03T16:21:00Z"
+ },
+ {
+  "id": "acc_0906020",
+  "name": "Simien Solar AG",
+  "website": "HTTPS://WWW.SIMIENSOLAR.DE",
+  "hq": {
+   "street": "69 Rue de la Paix",
+   "city": "Hamburg",
+   "country_code": "DE"
+  },
+  "employee_count": 8,
+  "industry": "energy",
+  "updated_at": "2026-05-19T21:47:00Z"
+ },
+ {
+  "id": "acc_0704641",
+  "name": "Tana Lak Coffee Traders Aktiebolag",
+  "website": null,
+  "hq": {
+   "street": "11 Moi Avenue",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 15,
+  "industry": "food & beverage",
+  "updated_at": "2026-05-21T08:24:00Z"
+ },
+ {
+  "id": "acc_0899252",
+  "name": "Silverbirch Data",
+  "website": "HTTPS://WWW.SILVERBIRCHDATA.COM",
+  "hq": {
+   "street": "94 Harbour Lane",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": 60,
+  "industry": "software",
+  "updated_at": "2026-08-05T08:51:00Z"
+ },
+ {
+  "id": "acc_0674011",
+  "name": "Yarrow Sftware G.m.b.H.",
+  "website": "https://www.yarrowsoftware.de",
+  "hq": {
+   "street": "88 Calle Mayor",
+   "city": "München",
+   "country_code": "DE"
+  },
+  "employee_count": 120,
+  "industry": "software",
+  "updated_at": "2026-05-31T18:14:00Z"
+ },
+ {
+  "id": "acc_1068355",
+  "name": "Thornbury Analytics L.L.C.",
+  "website": "HTTPS://WWW.THORNBURYANALYTICS.COM",
+  "hq": {
+   "street": "71 Mill Way",
+   "city": "Boston",
+   "country_code": "US"
+  },
+  "employee_count": 87,
+  "industry": "software",
+  "updated_at": "2026-07-26T11:40:00Z"
+ },
+ {
+  "id": "acc_1931718",
+  "name": "Abenet Buliders Ltd",
+  "website": "https://www.abenetbuilders.co.ke",
+  "hq": {
+   "street": "52 Rue de la Paix",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 2862,
+  "industry": "construction",
+  "updated_at": "2026-08-27T10:00:00Z"
+ },
+ {
+  "id": "acc_0294956",
+  "name": "Cedarline Textiles B.V.",
+  "website": "https://www.cedarlinetextiles.com",
+  "hq": {
+   "street": "197 Storgatan",
+   "city": "Amsterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 900,
+  "industry": "manufacturing",
+  "updated_at": "2026-08-25T16:25:00Z"
+ },
+ {
+  "id": "acc_2143556",
+  "name": "ORCHID BAY CAPITAL GROUP, Limited",
+  "website": "HTTPS://WWW.ORCHIDBAYCAPITALGROUP.CO.UK",
+  "hq": {
+   "street": "88 Station Road",
+   "city": "Leeds",
+   "country_code": "GB"
+  },
+  "employee_count": 15,
+  "industry": "financial services",
+  "updated_at": "2026-08-06T08:51:00Z"
+ },
+ {
+  "id": "acc_0057574",
+  "name": "Harborview and Co Health SA",
+  "website": "http://www.harborviewcohealth.com/about-us",
+  "hq": {
+   "street": "44 Station Road",
+   "city": "Barcelona",
+   "country_code": "ES"
+  },
+  "employee_count": 15,
+  "industry": "healthcare",
+  "updated_at": "2026-06-14T05:33:00Z"
+ },
+ {
+  "id": "acc_1444709",
+  "name": "Solano Energy",
+  "website": "http://www.solanoenergy.fr/about-us",
+  "hq": {
+   "street": "3 Moi Avenue",
+   "city": "Lyon",
+   "country_code": "FR"
+  },
+  "employee_count": 480,
+  "industry": "energy",
+  "updated_at": "2026-05-18T20:34:00Z"
+ },
+ {
+  "id": "acc_0493108",
+  "name": "EvergleamBuilders S.A.",
+  "website": "https://evergleambuilders.com/",
+  "hq": {
+   "street": "198 Kingsway",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": 250,
+  "industry": "construction",
+  "updated_at": "2026-07-26T19:57:00Z"
+ },
+ {
+  "id": "acc_0759531",
+  "name": "Cedarline Logistcis",
+  "website": "https://www.cedarlinelogistics.com",
+  "hq": {
+   "street": "9 Market Street",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": 480,
+  "industry": "logistics",
+  "updated_at": "2026-07-03T05:49:00Z"
+ },
+ {
+  "id": "acc_1233790",
+  "name": "Ébène oods AG",
+  "website": "https://ebenefoods.de/",
+  "hq": {
+   "street": "48 Market Street",
+   "city": "Köln",
+   "country_code": "DE"
+  },
+  "employee_count": 15,
+  "industry": "food & beverage",
+  "updated_at": "2026-08-12T05:12:00Z"
+ },
+ {
+  "id": "acc_1298298",
+  "name": "Foxglove Solar BV",
+  "website": "http://www.foxglovesolar.nl/about-us",
+  "hq": {
+   "street": "174 Queen Street",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 120,
+  "industry": "energy",
+  "updated_at": "2026-06-12T18:02:00Z"
+ },
+ {
+  "id": "acc_1786091",
+  "name": "Verdant Arc Pharma",
+  "website": "HTTPS://WWW.VERDANTARCPHARMA.COM",
+  "hq": {
+   "street": "13 Riverside Drive",
+   "city": "Austin",
+   "country_code": "US"
+  },
+  "employee_count": 15,
+  "industry": "healthcare",
+  "updated_at": "2026-05-29T17:25:00Z"
+ },
+ {
+  "id": "acc_0692874",
+  "name": "Foxglove Foods plc",
+  "website": "https://www.foxglovefoods.co.uk",
+  "hq": {
+   "street": "103 Kingsway",
+   "city": "London",
+   "country_code": "GB"
+  },
+  "employee_count": 60,
+  "industry": "food & beverage",
+  "updated_at": "2026-05-14T20:07:00Z"
+ },
+ {
+  "id": "acc_0199969",
+  "name": "Fernhollow Analytics",
+  "website": "http://www.fernhollowanalytics.fr/about-us",
+  "hq": {
+   "street": "109 Station Road",
+   "city": "Lyon",
+   "country_code": "FR"
+  },
+  "employee_count": 900,
+  "industry": "software",
+  "updated_at": "2026-08-15T14:18:00Z"
+ },
+ {
+  "id": "acc_0159683",
+  "name": "Kingsmoor Builders GmbH",
+  "website": "kingsmoorbuilders.com",
+  "hq": {
+   "street": "132 Elm Avenue",
+   "city": "München",
+   "country_code": "DE"
+  },
+  "employee_count": 8,
+  "industry": "construction",
+  "updated_at": "2026-07-10T18:17:00Z"
+ },
+ {
+  "id": "acc_1139122",
+  "name": "BRISA BUILDERS",
+  "website": "HTTPS://WWW.BRISABUILDERS.CO.UK",
+  "hq": {
+   "street": "53 Rue de la Paix",
+   "city": "Leeds",
+   "country_code": "GB"
+  },
+  "employee_count": 120,
+  "industry": "construction",
+  "updated_at": "2026-06-27T14:04:00Z"
+ },
+ {
+  "id": "acc_1356170",
+  "name": "Ébène Coffee Traders SARL",
+  "website": "http://www.ebenecoffeetraders.com/about-us",
+  "hq": {
+   "street": "106 Station Road",
+   "city": "Toulouse",
+   "country_code": "FR"
+  },
+  "employee_count": 32,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-28T05:30:00Z"
+ },
+ {
+  "id": "acc_1207592",
+  "name": "Goldcrest Freight gmbh",
+  "website": "HTTPS://WWW.GOLDCRESTFREIGHT.COM",
+  "hq": {
+   "street": "71 Harbour Lane",
+   "city": "München",
+   "country_code": "DE"
+  },
+  "employee_count": 15,
+  "industry": "logistics",
+  "updated_at": "2026-06-26T12:29:00Z"
+ },
+ {
+  "id": "acc_0489735",
+  "name": "Savanna Gate Foods AB",
+  "website": "HTTPS://WWW.SAVANNAGATEFOODS.SE",
+  "hq": {
+   "street": "33 Storgatan",
+   "city": "Göteborg",
+   "country_code": "SE"
+  },
+  "employee_count": 250,
+  "industry": "food & beverage",
+  "updated_at": "2026-07-16T06:35:00Z"
+ },
+ {
+  "id": "acc_1925934",
+  "name": "ZEPHYRINE SOFTWARE Ltd",
+  "website": "zephyrinesoftware.com",
+  "hq": {
+   "street": "152 Bole Road",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 480,
+  "industry": "software",
+  "updated_at": "2026-06-17T09:30:00Z"
+ },
+ {
+  "id": "acc_0252810",
+  "name": "Granite Peak Foods S.A.S.",
+  "website": "HTTPS://WWW.GRANITEPEAKFOODS.COM",
+  "hq": {
+   "street": "114 Storgatan",
+   "city": "Paris",
+   "country_code": "FR"
+  },
+  "employee_count": null,
+  "industry": "food & beverage",
+  "updated_at": "2026-08-27T22:09:00Z"
+ },
+ {
+  "id": "acc_1417545",
+  "name": "Bluestone Foods Ltd",
+  "website": "http://www.bluestonefoods.co.ke/about-us",
+  "hq": {
+   "street": "201 Keizersgracht",
+   "city": "Nairobi",
+   "country_code": "KE"
+  },
+  "employee_count": 480,
+  "industry": "food & beverage",
+  "updated_at": "2026-08-12T02:44:00Z"
+ },
+ {
+  "id": "acc_1149406",
+  "name": "Nørdvik Data Aktiebolag",
+  "website": "http://www.nrdvikdata.se/about-us",
+  "hq": {
+   "street": "119 Bahnhofstraße",
+   "city": "Göteborg",
+   "country_code": "SE"
+  },
+  "employee_count": 900,
+  "industry": "software",
+  "updated_at": "2026-07-02T15:14:00Z"
+ },
+ {
+  "id": "acc_1097636",
+  "name": "Pinecrest Analytics S.C.",
+  "website": "https://www.pinecrestanalytics.et",
+  "hq": {
+   "street": "189 Queen Street",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 32,
+  "industry": "software",
+  "updated_at": "2026-05-20T07:51:00Z"
+ },
+ {
+  "id": "acc_0273185",
+  "name": "Lindqvist Health Limited",
+  "website": "lindqvisthealth.com",
+  "hq": {
+   "street": "17 Elm Avenue",
+   "city": "Manchester",
+   "country_code": "GB"
+  },
+  "employee_count": 32,
+  "industry": "healthcare",
+  "updated_at": "2026-08-11T18:55:00Z"
+ },
+ {
+  "id": "acc_1617772",
+  "name": "LARKSPUR SOLAR Share Company",
+  "website": "http://www.larkspursolar.com/about-us",
+  "hq": {
+   "street": "208 Mill Way",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 60,
+  "industry": "energy",
+  "updated_at": "2026-05-11T16:43:00Z"
+ },
+ {
+  "id": "acc_0212054",
+  "name": "Meridian Vale Analytcis Limited",
+  "website": "HTTPS://WWW.MERIDIANVALEANALYTICS.COM",
+  "hq": {
+   "street": "33 Elm Avenue",
+   "city": "Mombasa",
+   "country_code": "KE"
+  },
+  "employee_count": 9,
+  "industry": "software",
+  "updated_at": "2026-07-31T01:10:00Z"
+ },
+ {
+  "id": "acc_0384133",
+  "name": "Tana Lake Fregiht Aktiebolag",
+  "website": "https://www.tanalakefreight.se",
+  "hq": {
+   "street": "226 Storgatan",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 73,
+  "industry": "logistics",
+  "updated_at": "2026-07-02T23:53:00Z"
+ },
+ {
+  "id": "acc_1544295",
+  "name": "Abenet Coffee Traders Inc.",
+  "website": "abenetcoffeetraders.com",
+  "hq": {
+   "street": "48 Harbour Lane",
+   "city": "Vancouver",
+   "country_code": "CA"
+  },
+  "employee_count": 31,
+  "industry": "food & beverage",
+  "updated_at": "2026-07-15T00:08:00Z"
+ },
+ {
+  "id": "acc_0879348",
+  "name": "Verdant Arc & Sons Robotics S.L.",
+  "website": "verdantarcsonsrobotics.es",
+  "hq": {
+   "street": "192 Kingsway",
+   "city": "Valencia",
+   "country_code": "ES"
+  },
+  "employee_count": 14,
+  "industry": "manufacturing",
+  "updated_at": "2026-05-30T04:18:00Z"
+ },
+ {
+  "id": "acc_0422227",
+  "name": "Kingsmoor Textiles Ltd",
+  "website": "https://www.kingsmoortextiles.co.ke",
+  "hq": {
+   "street": "23 Elm Avenue",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 900,
+  "industry": "manufacturing",
+  "updated_at": "2026-07-27T12:08:00Z"
+ },
+ {
+  "id": "acc_1533651",
+  "name": "Quillfeather Eenrgy PLC",
+  "website": "https://www.quillfeatherenergy.et",
+  "hq": {
+   "street": "237 Riverside Drive",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 250,
+  "industry": "energy",
+  "updated_at": "2026-07-03T01:21:00Z"
+ },
+ {
+  "id": "acc_0519369",
+  "name": "Savanna Gate Analytics BV",
+  "website": "HTTPS://WWW.SAVANNAGATEANALYTICS.COM",
+  "hq": {
+   "street": "99 Harbour Lane",
+   "city": "Amsterdam",
+   "country_code": "NL"
+  },
+  "employee_count": null,
+  "industry": "software",
+  "updated_at": "2026-07-29T07:32:00Z"
+ },
+ {
+  "id": "acc_0088287",
+  "name": "Oahaven Capital P.L.C.",
+  "website": "oakhavencapital.et",
+  "hq": {
+   "street": "192 Keizersgracht",
+   "city": "Bahir Dar",
+   "country_code": "ET"
+  },
+  "employee_count": 126,
+  "industry": "financial services",
+  "updated_at": "2026-07-01T21:16:00Z"
+ },
+ {
+  "id": "acc_0233936",
+  "name": "Malpecrest Solar AB",
+  "website": "HTTPS://WWW.MAPLECRESTSOLAR.SE",
+  "hq": {
+   "street": "227 Storgatan",
+   "city": "Stockholm",
+   "country_code": "SE"
+  },
+  "employee_count": 12,
+  "industry": "energy",
+  "updated_at": "2026-07-12T10:11:00Z"
+ },
+ {
+  "id": "acc_1663503",
+  "name": "ZephyrineLabs",
+  "website": "https://www.zephyrinelabs.com",
+  "hq": {
+   "street": "167 Calle Mayor",
+   "city": "Berlin",
+   "country_code": "DE"
+  },
+  "employee_count": 24,
+  "industry": "biotech",
+  "updated_at": "2026-07-07T16:21:00Z"
+ },
+ {
+  "id": "acc_2174389",
+  "name": "Willowmere Data Labs SA",
+  "website": "https://willowmeredatalabs.es/",
+  "hq": {
+   "street": "203 Riverside Drive",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 250,
+  "industry": "software",
+  "updated_at": "2026-06-02T08:17:00Z"
+ },
+ {
+  "id": "acc_2003378",
+  "name": "Orchid Bay Coffee Coffee Traders",
+  "website": "https://orchidbaycoffeecoffeetraders.nl/",
+  "hq": {
+   "street": "26 Calle Mayor",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 8,
+  "industry": "food & beverage",
+  "updated_at": "2026-07-08T14:31:00Z"
+ },
+ {
+  "id": "acc_1675574",
+  "name": "Fjällgren Freight plc",
+  "website": "https://www.fjallgrenfreight.co.uk",
+  "hq": {
+   "street": "119 Elm Avenue",
+   "city": "Leeds",
+   "country_code": "GB"
+  },
+  "employee_count": 303,
+  "industry": "logistics",
+  "updated_at": "2026-05-18T08:32:00Z"
+ },
+ {
+  "id": "acc_0404144",
+  "name": "Quarrystone Health",
+  "website": "quarrystonehealth.com",
+  "hq": {
+   "street": "28 Bole Road",
+   "city": "Hamburg",
+   "country_code": "DE"
+  },
+  "employee_count": 23,
+  "industry": "healthcare",
+  "updated_at": "2026-06-29T15:22:00Z"
+ },
+ {
+  "id": "acc_0825059",
+  "name": "Valewood Pharma PLC",
+  "website": "http://www.valewoodpharma.et/about-us",
+  "hq": {
+   "street": "12 Riverside Drive",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 250,
+  "industry": "healthcare",
+  "updated_at": "2026-05-21T11:26:00Z"
+ },
+ {
+  "id": "acc_1244374",
+  "name": "Larkspur Robotics Limited",
+  "website": "http://www.larkspurrobotics.com/about-us",
+  "hq": {
+   "street": "63 Rue de la Paix",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": 189,
+  "industry": "manufacturing",
+  "updated_at": "2026-07-05T02:28:00Z"
+ },
+ {
+  "id": "acc_0457235",
+  "name": "Cedarline Builders",
+  "website": "https://cedarlinebuilders.co.uk/",
+  "hq": {
+   "street": "196 Queen Street",
+   "city": "Leeds",
+   "country_code": "GB"
+  },
+  "employee_count": null,
+  "industry": "construction",
+  "updated_at": "2026-07-16T21:08:00Z"
+ },
+ {
+  "id": "acc_1574508",
+  "name": "Goldcrest Builders L.L.C.",
+  "website": "goldcrestbuilders.com",
+  "hq": {
+   "street": "85 Bole Road",
+   "city": "Seattle",
+   "country_code": "US"
+  },
+  "employee_count": 250,
+  "industry": "construction",
+  "updated_at": "2026-06-30T13:39:00Z"
+ },
+ {
+  "id": "acc_1716940",
+  "name": "Westbrook Data Aktiebolag",
+  "website": "westbrookdata.com",
+  "hq": {
+   "street": "39 Riverside Drive",
+   "city": "Malmö",
+   "country_code": "SE"
+  },
+  "employee_count": 2190,
+  "industry": "software",
+  "updated_at": "2026-08-01T02:52:00Z"
+ },
+ {
+  "id": "acc_1775786",
+  "name": "Orchid Bay Freight Corporation",
+  "website": "orchidbayfreight.com",
+  "hq": {
+   "street": "226 Bahnhofstraße",
+   "city": "Seattle",
+   "country_code": "US"
+  },
+  "employee_count": 60,
+  "industry": "logistics",
+  "updated_at": "2026-08-04T14:17:00Z"
+ },
+ {
+  "id": "acc_0433650",
+  "name": "Northwind Coffee Traders",
+  "website": "http://www.northwindcoffeetraders.fr/about-us",
+  "hq": {
+   "street": "239 Kingsway",
+   "city": "Toulouse",
+   "country_code": "FR"
+  },
+  "employee_count": 250,
+  "industry": "food & beverage",
+  "updated_at": "2026-05-30T09:18:00Z"
+ },
+ {
+  "id": "acc_0526019",
+  "name": "Redfern Capital Limited",
+  "website": "https://redferncapital.com/",
+  "hq": {
+   "street": "219 Queen Street",
+   "city": "Bristol",
+   "country_code": "GB"
+  },
+  "employee_count": 2400,
+  "industry": "financial services",
+  "updated_at": "2026-08-01T09:15:00Z"
+ },
+ {
+  "id": "acc_0324247",
+  "name": "EMBERLINE FREIGHT PLC",
+  "website": "HTTPS://WWW.EMBERLINEFREIGHT.ET",
+  "hq": {
+   "street": "14 Market Street",
+   "city": "Addis Ababa",
+   "country_code": "ET"
+  },
+  "employee_count": 20,
+  "industry": "logistics",
+  "updated_at": "2026-08-20T09:33:00Z"
+ },
+ {
+  "id": "acc_2069475",
+  "name": "Goldcerst Pharma BV",
+  "website": "goldcrestpharma.com",
+  "hq": {
+   "street": "186 Storgatan",
+   "city": "Amsterdam",
+   "country_code": "NL"
+  },
+  "employee_count": null,
+  "industry": "healthcare",
+  "updated_at": "2026-05-30T20:07:00Z"
+ },
+ {
+  "id": "acc_0346313",
+  "name": "Fjällgren Energy Ltd",
+  "website": "fjallgrenenergy.com",
+  "hq": {
+   "street": "166 Bole Road",
+   "city": "Kisumu",
+   "country_code": "KE"
+  },
+  "employee_count": null,
+  "industry": "energy",
+  "updated_at": "2026-08-15T01:53:00Z"
+ },
+ {
+  "id": "acc_1362674",
+  "name": "Quarrystone Textiles SA",
+  "website": "https://www.quarrystonetextiles.es",
+  "hq": {
+   "street": "240 Moi Avenue",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 32,
+  "industry": "manufacturing",
+  "updated_at": "2026-06-15T07:59:00Z"
+ },
+ {
+  "id": "acc_2189902",
+  "name": "Cedarline Textiels Labs BV",
+  "website": "HTTPS://WWW.CEDARLINETEXTILESLABS.NL",
+  "hq": {
+   "street": "163 Station Road",
+   "city": "Utrecht",
+   "country_code": "NL"
+  },
+  "employee_count": 56,
+  "industry": "manufacturing",
+  "updated_at": "2026-07-24T05:14:00Z"
+ },
+ {
+  "id": "acc_0969390",
+  "name": "Kestrel Logistics BV",
+  "website": "http://www.kestrellogistics.nl/about-us",
+  "hq": {
+   "street": "180 Bahnhofstraße",
+   "city": "Amsterdam",
+   "country_code": "NL"
+  },
+  "employee_count": 250,
+  "industry": "logistics",
+  "updated_at": "2026-07-26T17:56:00Z"
+ },
+ {
+  "id": "acc_0221029",
+  "name": "Orchid Bay Coffe Traders Inc",
+  "website": "http://www.orchidbaycoffeetraders.com/about-us",
+  "hq": {
+   "street": "104 Bole Road",
+   "city": "Ottawa",
+   "country_code": "CA"
+  },
+  "employee_count": 32,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-26T09:49:00Z"
+ },
+ {
+  "id": "acc_1102483",
+  "name": "Duskfall Solar",
+  "website": "https://www.duskfallsolar.com",
+  "hq": {
+   "street": "197 Storgatan",
+   "city": "Paris",
+   "country_code": "FR"
+  },
+  "employee_count": 363,
+  "industry": "energy",
+  "updated_at": "2026-07-08T08:57:00Z"
+ },
+ {
+  "id": "acc_1005015",
+  "name": "Meridin Vale Foods Ltd.",
+  "website": "https://meridianvalefoods.com/",
+  "hq": {
+   "street": "139 Bole Road",
+   "city": "Toronto",
+   "country_code": "CA"
+  },
+  "employee_count": 32,
+  "industry": "food & beverage",
+  "updated_at": "2026-06-29T02:26:00Z"
+ },
+ {
+  "id": "acc_1855001",
+  "name": "Zephyrine Capital",
+  "website": "zephyrinecapital.es",
+  "hq": {
+   "street": "17 Riverside Drive",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 60,
+  "industry": "financial services",
+  "updated_at": "2026-05-09T15:35:00Z"
+ },
+ {
+  "id": "acc_1047040",
+  "name": "Upland Foods S.L.",
+  "website": null,
+  "hq": {
+   "street": "222 Moi Avenue",
+   "city": "Madrid",
+   "country_code": "ES"
+  },
+  "employee_count": 2400,
+  "industry": "food & beverage",
+  "updated_at": "2026-08-15T06:10:00Z"
+ }
+]
