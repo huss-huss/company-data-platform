@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_registry__companies
+    description: Registry companies, typed. Highest-trust source for legal name and status.
+    columns:
+      - name: registration_number
+        data_tests: [unique, not_null]
+      - name: company_name
+        data_tests: [not_null]
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["active", "dissolved"]
+
+  - name: stg_api__companies
+    description: API companies, typed. Best source for website, headcount and industry.
+    columns:
+      - name: api_id
+        data_tests: [unique, not_null]
+      - name: company_name
+        data_tests: [not_null]
+      - name: employee_count
+        data_tests:
+          - positive_value:
+              config: {where: "employee_count is not null"}
+
+  - name: stg_directory__listings
+    description: Directory listings, typed. May contain duplicate listings of one business.
+    columns:
+      - name: listing_id
+        data_tests: [unique, not_null]
+      - name: company_name
+        data_tests: [not_null]

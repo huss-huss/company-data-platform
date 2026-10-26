@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Untouched provider records as landed by `cdp ingest` (one JSON payload per record).
+    schema: raw
+    config:
+      loaded_at_field: _fetched_at
+      freshness:
+        # The pipeline is scheduled daily; a missed day warns, three missed days errors.
+        warn_after: {count: 26, period: hour}
+        error_after: {count: 72, period: hour}
+    tables:
+      - name: registry_companies
+        description: Company registry bulk CSV export, one row per CSV line.
+        columns: &raw_columns
+          - name: payload
+            data_tests: [not_null]
+          - name: _checksum
+            data_tests: [not_null]
+          - name: _fetched_at
+            data_tests: [not_null]
+      - name: api_companies
+        description: Paginated company API, one row per element of `data`.
+        columns: *raw_columns
+      - name: directory_listings
+        description: Business directory JSONL export, one row per line.
+        columns: *raw_columns
+      - name: load_manifest
+        description: One row per raw object loaded; the idempotency ledger.
+        config:
+          freshness: null
+        columns:
+          - name: checksum
+            data_tests: [unique, not_null]
+
+  - name: resolved
+    description: Entity-resolution outputs written by `cdp resolve` (Python, see src/cdp/resolve).
+    schema: resolved
+    tables:
+      - name: entity_membership
+        description: record_id -> entity_id assignment after clustering.
+      - name: pair_scores
+        description: Every candidate pair produced by blocking, with features, score and decision.
+      - name: golden_records
+        description: One survived record per entity with per-field provenance.

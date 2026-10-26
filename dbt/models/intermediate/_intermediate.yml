@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: int_company_records
+    description: >
+      All source records unified and normalised: legal suffixes stripped, unicode folded,
+      domains extracted from URLs/e-mails (free-mail providers dropped), phones reduced to
+      digits and countries mapped to ISO alpha-2.
+    columns:
+      - name: record_id
+        description: "`<source>:<source_record_id>`, globally unique."
+        data_tests: [unique, not_null]
+      - name: source
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["registry", "api", "directory"]
+      - name: name_norm
+        data_tests: [not_null]
+      - name: country_code
+        description: Every provider spelling must map to a known ISO code.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('countries')
+                field: country_code

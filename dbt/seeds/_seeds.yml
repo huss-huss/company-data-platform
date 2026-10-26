@@ -1,0 +1,26 @@
+version: 2
+
+seeds:
+  - name: countries
+    description: ISO 3166-1 alpha-2 countries in scope.
+    config:
+      column_types: {country_code: varchar, country_name: varchar}
+    columns:
+      - name: country_code
+        data_tests: [unique, not_null]
+  - name: country_aliases
+    description: >
+      Spellings seen across providers mapped to ISO alpha-2. Keys are folded with the
+      country_alias_key macro (lower-case, accents and punctuation removed).
+    config:
+      column_types: {alias: varchar, country_code: varchar}
+    columns:
+      - name: alias
+        data_tests: [unique, not_null]
+      - name: country_code
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('countries')
+                field: country_code

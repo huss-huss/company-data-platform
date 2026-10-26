@@ -1,0 +1,10 @@
+company_data_platform:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      # The cdp CLI / Dagster always export an absolute CDP_WAREHOUSE.
+      path: "{{ env_var('CDP_WAREHOUSE', '../data/warehouse.duckdb') }}"
+      threads: 4
+      plugins:
+        - module: cdp.dbt_plugin

@@ -1,0 +1,28 @@
+name: company_data_platform
+version: "0.1.0"
+config-version: 2
+profile: company_data_platform
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  company_data_platform:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      # tables, not views: they call Python UDFs that only exist inside dbt/cdp sessions
+      +materialized: table
+    marts:
+      +schema: marts
+      +materialized: table
+
+seeds:
+  company_data_platform:
+    +schema: reference
