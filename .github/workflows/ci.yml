@@ -1,0 +1,60 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CDP_DATA_DIR: ${{ github.workspace }}/data
+      CDP_WAREHOUSE: ${{ github.workspace }}/data/warehouse.duckdb
+      DBT_PROFILES_DIR: ${{ github.workspace }}/dbt
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install (locked)
+        run: |
+          uv python install 3.12
+          uv sync --frozen --all-extras
+
+      - name: Lint
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+
+      - name: Unit and end-to-end tests
+        run: uv run pytest -q
+
+      - name: Pipeline on fixtures (ingest -> dbt -> resolve -> marts)
+        run: uv run cdp run
+
+      - name: dbt build (all models, contracts and tests)
+        working-directory: dbt
+        run: uv run dbt build
+
+      - name: dbt source freshness
+        working-directory: dbt
+        run: uv run dbt source freshness
+
+      - name: Entity-resolution metrics
+        run: |
+          uv run cdp eval --json metrics.json
+          echo '### Entity resolution (fixtures)' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat metrics.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Dagster definitions load
+        run: uv run dagster definitions validate
