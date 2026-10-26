@@ -17,6 +17,12 @@ UPSTREAM_SELECT = ["path:seeds", "path:models/staging", "path:models/intermediat
 MARTS_SELECT = ["path:models/marts"]
 Stage = Literal["upstream", "marts", "all"]
 
+# "buildable": a test runs only if every model it references is selected *or upstream of the
+# selection*. Mart tests that also reference intermediate models therefore run in the marts
+# pass, but never in the upstream pass (where the marts do not exist yet). dbt's default
+# ("eager") would run them too early; "cautious" would silently skip them.
+INDIRECT_SELECTION = ["--indirect-selection", "buildable"]
+
 
 class DbtError(RuntimeError):
     pass
@@ -52,7 +58,5 @@ def run_dbt(settings: Settings, command: str, *extra: str) -> None:
 
 def build(settings: Settings, stage: Stage = "all") -> None:
     select = {"upstream": UPSTREAM_SELECT, "marts": MARTS_SELECT, "all": []}[stage]
-    # cautious: a test runs only when *all* models it references are selected, so mart
-    # tests that also touch intermediate models do not run in the upstream pass.
-    extra = ["--select", *select, "--indirect-selection", "cautious"] if select else []
+    extra = ["--select", *select, *INDIRECT_SELECTION] if select else []
     run_dbt(settings, "build", *extra)

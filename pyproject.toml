@@ -42,4 +42,12 @@ select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
 testpaths = ["tests"]
 asyncio_mode = "auto"
 markers = ["e2e: end-to-end pipeline tests (slower, run dbt)"]
-filterwarnings = ["ignore:sqlglotrs is deprecated:DeprecationWarning"]
+filterwarnings = [
+  "ignore:sqlglotrs is deprecated:DeprecationWarning",
+  # emitted from inside dagster-dbt itself, not from this project
+  "ignore:AssetExecutionContext.op is deprecated:DeprecationWarning",
+]
+
+[tool.dagster]
+module_name = "cdp.orchestration.definitions"
+code_location_name = "company_data_platform"
