@@ -84,14 +84,16 @@ def evaluate_cmd(
 ) -> None:
     """Score the current resolution against labelled ground truth."""
     from cdp.resolve.engine import resolve_records
-    from cdp.resolve.evaluate import evaluate, load_ground_truth
+    from cdp.resolve.evaluate import baseline_metrics, evaluate, load_ground_truth
     from cdp.resolve.records import load_records
 
     settings = get_settings()
     truth = truth or settings.fixtures_dir / "ground_truth.csv"
     with duckdb.connect(str(settings.warehouse_path)) as con:
         res = resolve_records(load_records(con))
-    metrics = evaluate(res, load_ground_truth(truth)).as_dict()
+    labels = load_ground_truth(truth)
+    metrics = evaluate(res, labels).as_dict()
+    metrics["baseline_exact_name_country"] = baseline_metrics(res, labels)
     width = max(map(len, metrics))
     for key, value in metrics.items():
         typer.echo(f"{key:<{width}}  {value}")

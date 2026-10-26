@@ -84,3 +84,13 @@ def evaluate(res: Resolution, truth: dict[str, str]) -> Metrics:
         uncertain_pairs=len(review),
         uncertain_true_matches=sum(truth[p.left] == truth[p.right] for p in review),
     )
+
+
+def baseline_exact_key(res: Resolution) -> dict[str, str]:
+    """Naive baseline: same normalised name and country => same company."""
+    return {r.record_id: f"{r.name_norm}|{r.country_code}" for r in res.records}
+
+
+def baseline_metrics(res: Resolution, truth: dict[str, str]) -> dict[str, float]:
+    precision, recall, f1, *_ = pairwise_metrics(baseline_exact_key(res), truth)
+    return {"precision": round(precision, 4), "recall": round(recall, 4), "f1": round(f1, 4)}
