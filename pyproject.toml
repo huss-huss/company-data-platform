@@ -42,3 +42,4 @@ select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
 testpaths = ["tests"]
 asyncio_mode = "auto"
 markers = ["e2e: end-to-end pipeline tests (slower, run dbt)"]
+filterwarnings = ["ignore:sqlglotrs is deprecated:DeprecationWarning"]

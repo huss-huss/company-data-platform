@@ -1,0 +1,221 @@
+version: 2
+
+models:
+  - name: dim_company
+    description: Golden record per company entity. Field values chosen by source trust then recency.
+    config:
+      contract: {enforced: true}
+    constraints:
+      - type: primary_key
+        columns: [entity_id]
+    columns:
+      - name: entity_id
+        data_type: varchar
+        description: Stable id derived from the smallest member record_id.
+        constraints: [{type: not_null}]
+        data_tests: [unique, not_null]
+      - name: company_name
+        data_type: varchar
+        constraints: [{type: not_null}]
+        data_tests: [not_null]
+      - name: name_norm
+        data_type: varchar
+      - name: registration_number
+        data_type: varchar
+      - name: status
+        data_type: varchar
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["active", "dissolved"]
+      - name: incorporation_date
+        data_type: date
+      - name: country_code
+        data_type: varchar
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('countries')
+                field: country_code
+      - name: country_name
+        data_type: varchar
+      - name: street
+        data_type: varchar
+      - name: city
+        data_type: varchar
+      - name: domain
+        data_type: varchar
+      - name: phone
+        data_type: varchar
+      - name: employee_count
+        data_type: integer
+        data_tests:
+          - positive_value:
+              config: {where: "employee_count is not null"}
+      - name: industry
+        data_type: varchar
+      - name: record_count
+        data_type: integer
+        constraints: [{type: not_null}]
+        data_tests: [positive_value]
+      - name: source_count
+        data_type: integer
+        constraints: [{type: not_null}]
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3]
+                quote: false
+      - name: sources
+        data_type: varchar
+      - name: last_source_update
+        data_type: timestamp
+      - name: field_provenance
+        data_type: json
+        description: "JSON object: field name -> record_id that supplied the value."
+      - name: resolved_at
+        data_type: timestamp with time zone
+
+  - name: company_source_xref
+    description: Source record -> golden entity crosswalk (exactly one row per source record).
+    config:
+      contract: {enforced: true}
+    constraints:
+      - type: primary_key
+        columns: [record_id]
+    columns:
+      - name: record_id
+        data_type: varchar
+        constraints: [{type: not_null}]
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_company_records')
+                field: record_id
+      - name: entity_id
+        data_type: varchar
+        constraints: [{type: not_null}]
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_company')
+                field: entity_id
+      - name: source
+        data_type: varchar
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["registry", "api", "directory"]
+      - name: source_record_id
+        data_type: varchar
+      - name: source_company_name
+        data_type: varchar
+      - name: cluster_size
+        data_type: integer
+      - name: best_match_score
+        data_type: double
+      - name: link_type
+        data_type: varchar
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["singleton", "matched"]
+      - name: resolved_at
+        data_type: timestamp with time zone
+
+  - name: match_audit
+    description: All candidate pairs from blocking with features, score and decision.
+    config:
+      contract: {enforced: true}
+    constraints:
+      - type: primary_key
+        columns: [pair_id]
+    columns:
+      - name: pair_id
+        data_type: varchar
+        constraints: [{type: not_null}]
+        data_tests: [unique, not_null]
+      - name: left_record_id
+        data_type: varchar
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('company_source_xref')
+                field: record_id
+      - name: right_record_id
+        data_type: varchar
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('company_source_xref')
+                field: record_id
+      - name: left_company_name
+        data_type: varchar
+      - name: right_company_name
+        data_type: varchar
+      - name: left_entity_id
+        data_type: varchar
+      - name: right_entity_id
+        data_type: varchar
+      - name: same_entity
+        data_type: boolean
+      - name: blocking_keys
+        data_type: varchar
+      - name: name_sim
+        data_type: double
+      - name: name_jw
+        data_type: double
+      - name: extra_tokens
+        data_type: integer
+      - name: domain_match
+        data_type: integer
+      - name: phone_match
+        data_type: integer
+      - name: country_match
+        data_type: integer
+      - name: city_match
+        data_type: integer
+      - name: street_sim
+        data_type: double
+      - name: score
+        data_type: double
+        constraints: [{type: not_null}]
+      - name: decision
+        data_type: varchar
+        constraints: [{type: not_null}]
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["match", "review", "non_match"]
+      - name: reason
+        data_type: varchar
+      - name: resolved_at
+        data_type: timestamp with time zone
+
+  - name: match_review_queue
+    description: Pairs scored between the review and match thresholds (or vetoed by a constraint).
+    config:
+      contract: {enforced: true}
+    columns:
+      - name: pair_id
+        data_type: varchar
+        data_tests: [unique, not_null]
+      - name: left_record_id
+        data_type: varchar
+      - name: right_record_id
+        data_type: varchar
+      - name: left_company_name
+        data_type: varchar
+      - name: right_company_name
+        data_type: varchar
+      - name: score
+        data_type: double
+      - name: reason
+        data_type: varchar
+      - name: resolved_at
+        data_type: timestamp with time zone

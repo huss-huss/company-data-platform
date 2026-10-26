@@ -74,5 +74,5 @@ def run_ingest(
         for source in sources:
             landed = [land(bucket, raw) for raw in fetched[source]]
             report.results[source] = load_objects(con, landed, source)
-    log.info("ingest complete\n%s", report.summary())
+    log.info("ingest complete: %d sources", len(report.results))
     return report
